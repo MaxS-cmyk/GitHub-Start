@@ -44,7 +44,7 @@ const githubSlice = createSlice({
             })
             .addCase(fetchRepos.fulfilled, (state, action) => {
                 state.status = 'succeeded';
-                state.repos = action.payload; // Обновляем репозитории для текущей страницы
+                state.repos = action.payload;
             })
             .addCase(fetchRepos.rejected, (state, action) => {
                 state.status = 'failed';

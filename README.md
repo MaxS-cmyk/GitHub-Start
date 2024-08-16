@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# Github stars
 
 This is a React project that uses TypeScript and Vite as a build tool. The project requires Node.js version 20.10.0 to run.
 
